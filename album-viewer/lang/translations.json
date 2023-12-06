@@ -1,10 +1,10 @@
 [
-    {
-        "language": "en",
-        "values": {
-            "main-title": "Welcome to the world of the future",
-            "main-subtitle": "The future is now with copilot",
-            "main-button": "Get started"
-        }
+  {
+    "language": "en",
+    "values": {
+      "main-title": "Welcome to the world of the future",
+      "main-subtitle": "The future is now with copilot",
+      "main-button": "Get started"
     }
+  }
 ]
