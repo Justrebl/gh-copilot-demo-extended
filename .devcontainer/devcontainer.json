@@ -38,7 +38,7 @@
   "onCreateCommand": "wget -q https://raw.githubusercontent.com/dapr/cli/master/install/install.sh -O - | bash && dapr init",
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": " cd albums-api && dotnet restore && cd ../album-viewer && npm install && cd ../albums-api dotnet dev-certs https --trust",
+  "postCreateCommand": "npm install --global mocha && npm install axios && cd albums-api && dotnet restore && cd ../album-viewer && npm install && cd ../albums-api dotnet dev-certs https --trust",
 
   // Configure tool-specific properties.
   "customizations": {
